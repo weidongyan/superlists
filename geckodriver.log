@@ -2171,3 +2171,1094 @@ onPacket/<()@server.js:242
 onPacket()@server.js:241
 _onJSONObjectReady/<()@transport.js:500
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549843092842	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FeYC3ssoklAT"
+1549843093924	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843094233	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549843094236	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549843099240	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843100439	Marionette	INFO	Listening on port 46315
+1549843100703	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549843124844	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fUnMRO55zoS7"
+1549843125766	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843126131	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549843126134	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549843130695	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843131174	Marionette	INFO	Listening on port 34653
+1549843131224	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549843132486	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Parent 32694, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-60.4.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+1549843133602	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k6pH1tq7M4Hs"
+1549843134331	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843134709	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549843134713	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549843137901	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843138322	Marionette	INFO	Listening on port 41429
+1549843138428	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549843336692	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.XKCzAA4wFTpf"
+1549843337628	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843337874	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549843337876	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549843341264	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843341649	Marionette	INFO	Listening on port 34725
+1549843341806	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549843364900	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6dZkTGNYzJga"
+1549843365808	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843366064	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549843366066	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549843368983	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843369322	Marionette	INFO	Listening on port 41495
+1549843369423	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549843370456	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+1549843371920	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K1xa9Bv36CoH"
+1549843372825	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843373175	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549843373178	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549843376221	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549843376556	Marionette	INFO	Listening on port 46880
+1549843376665	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844414590	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zVxGMD4NVePY"
+1549844415978	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844416366	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844416369	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844423653	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844424575	Marionette	INFO	Listening on port 39399
+1549844424875	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+[Parent 1878, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-60.4.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844449723	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.huJc9azlWvD0"
+1549844450785	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844451203	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844451206	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844455231	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844455766	Marionette	INFO	Listening on port 38306
+1549844455882	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549844457746	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1549844459698	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ztGkMYlm4k4L"
+1549844460691	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844461097	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844461100	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844465063	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844465498	Marionette	INFO	Listening on port 36478
+1549844465606	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844622700	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VTjcmo0wHmlT"
+1549844623623	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844623889	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844623892	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844627606	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844627930	Marionette	INFO	Listening on port 41535
+1549844628003	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844634881	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9seHEvs0tA8C"
+1549844635841	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844636197	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844636199	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844639469	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844639773	Marionette	INFO	Listening on port 44305
+1549844639808	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549844640711	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1549844642203	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NFPpwlLopMC2"
+1549844643056	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844643290	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844643292	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844646324	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844646630	Marionette	INFO	Listening on port 33894
+1549844646684	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844650357	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5t84hNhcWBlW"
+1549844650965	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844651208	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844651210	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844654477	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844654752	Marionette	INFO	Listening on port 46673
+1549844654816	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844827427	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Fv9GmOeUtkcI"
+1549844828346	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844828735	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844828738	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844831617	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844831888	Marionette	INFO	Listening on port 46793
+1549844832009	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844837170	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.98g1fspS3iiR"
+1549844837755	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844838024	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844838028	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844841204	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844841496	Marionette	INFO	Listening on port 38987
+1549844841560	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549844842339	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1549844843551	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5kunFTFvhfhZ"
+1549844843995	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844844237	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844844239	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844847054	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844847337	Marionette	INFO	Listening on port 38195
+1549844847380	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549844850864	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rj3wXztplLlo"
+1549844851526	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844851751	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549844851753	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549844854932	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549844855253	Marionette	INFO	Listening on port 34787
+1549844855378	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549845805288	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.bMyCEfo2UafI"
+1549845806074	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845806320	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549845806322	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549845809196	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845809519	Marionette	INFO	Listening on port 45145
+1549845809631	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549845814752	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WIdYNvCEEak1"
+1549845815587	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845815920	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549845815924	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549845819325	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845819619	Marionette	INFO	Listening on port 35203
+1549845819645	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549845820818	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Parent 4927, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-60.4.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549845822158	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SLHctZCHWLpA"
+1549845822745	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845822984	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549845822986	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549845826086	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845826370	Marionette	INFO	Listening on port 38581
+1549845826510	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549845829679	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.d8o4RbZR1Lpv"
+1549845830326	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845830590	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549845830594	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549845834051	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845834545	Marionette	INFO	Listening on port 34191
+1549845834661	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549845996200	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8gOo8q9rte2X"
+1549845996821	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549845997066	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549845997068	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549846000021	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846000344	Marionette	INFO	Listening on port 38490
+1549846000439	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549846005420	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ujVc2aCa90XR"
+1549846006201	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846006438	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549846006440	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549846009657	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846010049	Marionette	INFO	Listening on port 40129
+1549846010195	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549846011225	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+[Parent 5793, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-60.4.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1549846012693	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wYe7wHMqcVb4"
+1549846013460	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846013756	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549846013758	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549846017024	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846017317	Marionette	INFO	Listening on port 42125
+1549846017367	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+[Parent 5979, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-60.4.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549846020821	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N2mokPRIhdjQ"
+1549846021658	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846021941	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549846021945	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549846024918	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549846025286	Marionette	INFO	Listening on port 41125
+1549846025346	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549847332262	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IrCPLlLiR274"
+1549847332985	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847333385	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847333388	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847336959	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847337260	Marionette	INFO	Listening on port 41168
+1549847337390	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549847342693	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4qqmh34ANxLY"
+1549847343592	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847343937	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847343940	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847347133	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847347425	Marionette	INFO	Listening on port 36079
+1549847347551	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549847348324	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1549847349447	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ihx0qHb8mAtN"
+1549847349960	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847350201	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847350203	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847353289	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847353575	Marionette	INFO	Listening on port 45514
+1549847353605	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549847357155	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fZeAzsMWeJSh"
+1549847357787	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847358104	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847358107	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847361254	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847361543	Marionette	INFO	Listening on port 46585
+1549847361603	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+[Parent 7320, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builddir/build/BUILD/firefox-60.4.0/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549847965425	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rVgqIwmI7Pxi"
+1549847966259	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847966502	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847966504	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847969765	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847970318	Marionette	INFO	Listening on port 36910
+1549847970517	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549847976816	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Vz9MNcCmkFYB"
+1549847977810	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847978085	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847978087	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847981206	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847981512	Marionette	INFO	Listening on port 37077
+1549847981665	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549847982647	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2D001F,name=PContent::Msg_PreferenceUpdate) Closed channel: cannot send/recv
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting request to DirectoryIterator_prototype_next
+1549847983848	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KZjmU4VNNXK4"
+1549847984834	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847985220	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847985223	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847988609	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847989037	Marionette	INFO	Listening on port 33247
+1549847989144	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549847992934	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BwfiyQi9uiEc"
+1549847993634	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847993869	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549847993871	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549847997755	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549847998032	Marionette	INFO	Listening on port 40493
+1549847998069	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848059844	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cyVszfKrcjLx"
+1549848060898	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848061208	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848061210	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848064153	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848064452	Marionette	INFO	Listening on port 43072
+1549848064573	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848069767	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mWo8uzPjNwOD"
+1549848070746	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848071120	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848071122	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848074241	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848074541	Marionette	INFO	Listening on port 46596
+1549848074567	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549848075571	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848076915	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.YmASlhxCHVpM"
+1549848077828	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848078110	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848078112	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848081047	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848081398	Marionette	INFO	Listening on port 45278
+1549848081473	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848085270	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VIIMQLiVfU75"
+1549848086097	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848086332	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848086334	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848089559	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848089856	Marionette	INFO	Listening on port 40259
+1549848090004	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848475691	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3U0fWETeqCY2"
+1549848476540	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848476804	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848476806	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848480130	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848480636	Marionette	INFO	Listening on port 44000
+1549848480736	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848486440	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lpgkH2LxLHDw"
+1549848487252	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848487478	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848487480	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848490478	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848490770	Marionette	INFO	Listening on port 40835
+1549848490793	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549848491788	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 408: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_close
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+JavaScript error: resource://gre/modules/ProfileAge.jsm, line 174: Error: Unable to fetch oldest profile entry: Error: OS.File has been shut down. Rejecting post to DirectoryIterator_prototype_next
+1549848493289	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9oIwWRGcbV2F"
+1549848494196	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848494425	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848494427	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848497327	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848497613	Marionette	INFO	Listening on port 35512
+1549848497709	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848501737	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j4GzUloeJbMy"
+1549848502663	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848502898	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848502900	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848505946	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848506419	Marionette	INFO	Listening on port 40844
+1549848506517	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848837218	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Pqeo6Eyu33wc"
+1549848837877	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848838154	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848838156	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848841255	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848841526	Marionette	INFO	Listening on port 36270
+1549848841588	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848846668	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Te79GlviMkeU"
+1549848847462	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848847754	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848847758	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848851017	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848851299	Marionette	INFO	Listening on port 45550
+1549848851414	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1549848852461	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib64/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4459
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2306
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848853851	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.99S5xmKvzRbu"
+1549848854867	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848855237	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848855240	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848858464	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848858748	Marionette	INFO	Listening on port 36966
+1549848858815	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1549848862822	mozrunner::runner	INFO	Running command: "/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4uUBxA1uZBKB"
+1549848863460	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848863688	addons.xpi-utils	WARN	addMetadata: Add-on aushelper@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: loadManifestFromFile :: line 925"  data: no] Stack trace: loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:925
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIProvider.jsm:940
+addMetadata()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1167
+processFileChanges()@resource://gre/modules/addons/XPIProvider.jsm -> resource://gre/modules/addons/XPIProviderUtils.js:1523
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3304
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2196
+callProvider()@resource://gre/modules/AddonManager.jsm:253
+_startProvider()@resource://gre/modules/AddonManager.jsm:728
+startup()@resource://gre/modules/AddonManager.jsm:892
+startup()@resource://gre/modules/AddonManager.jsm:2976
+observe()@jar:file:///usr/lib64/firefox/omni.ja!/components/addonManager.js:63
+1549848863690	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1549848866661	addons.xpi	WARN	Can't get modified time of /usr/lib64/firefox/browser/features/aushelper@mozilla.org.xpi
+1549848866915	Marionette	INFO	Listening on port 43640
+1549848867017	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
