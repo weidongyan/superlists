@@ -48,7 +48,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
     def test_can_start_a_list_for_one_user(self):
         # Edith has heard about a cool new online to-do app. she goes
         # to check out its homepage
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
 
         # She notices the page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
@@ -87,7 +87,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
     def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith start a new todo list
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy peacock feathers')
         inputbox.send_keys(Keys.ENTER)
@@ -132,7 +132,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
 
     def test_layout_and_styling(self):
-        self.browser.get(self.live_server_url)
+        self.browser.get(self.server_url)
         self.browser.set_window_size(1024, 768)
 
         inputbox = self.browser.find_element_by_id('id_new_item')
