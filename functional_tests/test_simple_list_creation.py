@@ -1,50 +1,11 @@
-from django.contrib.staticfiles.testing import StaticLiveServerTestCase
+from .base import FunctionalTest
 from selenium import webdriver
-from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.keys import Keys
-import time
-import sys
+from unittest import skip
 
-MAX_WAIT = 20
+class NewVisitorTest(FunctionalTest):
 
-
-class NewVisitorTest(StaticLiveServerTestCase):
-
-    @classmethod
-    def setUpClass(cls):
-        for arg in sys.argv:
-            if 'liveserver' in arg:
-                cls.server_url = 'http://' + arg.split('=')[1]
-                return
-        super().setUpClass()
-        cls.server_url = cls.live_server_url
-
-    @classmethod
-    def tearDownClass(cls):
-        if cls.server_url == cls.live_server_url:
-            super().tearDownClass()
-
-    def setUp(self):
-        self.browser = webdriver.Firefox()
-
-    def tearDown(self):
-        self.browser.quit()
-
-
-    def wait_for_row_in_list_table(self, row_text):
-        start_time = time.time()
-        while True:
-            try:
-                table = self.browser.find_element_by_id('id_list_table')
-                rows = table.find_elements_by_tag_name('tr')
-                self.assertIn(row_text,[row.text for row in rows])
-                return
-            except(AssertionError, WebDriverException) as e:
-                if time.time() - start_time> MAX_WAIT:
-                    raise e
-                time.sleep(1)
-
-
+    @skip
     def test_can_start_a_list_for_one_user(self):
         # Edith has heard about a cool new online to-do app. she goes
         # to check out its homepage
@@ -55,7 +16,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         header_text = self.browser.find_element_by_tag_name('h1').text
         self.assertIn('To-Do', header_text)
 
-        #she is invited to enter a to-do item straight away
+        # she is invited to enter a to-do item straight away
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertEqual(
             inputbox.get_attribute('placeholder'),
@@ -66,8 +27,8 @@ class NewVisitorTest(StaticLiveServerTestCase):
         # is typing fly-fishing lures)
         inputbox.send_keys('Buy peacock feathers')
 
-        #when she hits enter, the page updates, and now the page lists
-        #"1: Buy peacock feathers" as an item in a to-do list table
+        # when she hits enter, the page updates, and now the page lists
+        # "1: Buy peacock feathers" as an item in a to-do list table
         inputbox.send_keys(Keys.ENTER)
         self.wait_for_row_in_list_table('1: Buy peacock feathers')
 
@@ -84,7 +45,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # Satisfied, she goes back to sleep
 
-
     def test_multiple_users_can_start_lists_at_different_urls(self):
         # Edith start a new todo list
         self.browser.get(self.server_url)
@@ -95,9 +55,9 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
         # she notices that her todo list has a unique URL
         edith_list_url = self.browser.current_url
-        self.assertRegex(edith_list_url, '/lists/.+') #<1>
+        self.assertRegex(edith_list_url, '/lists/.+')  # <1>
 
-        #now a new user, Francis, comes along to the site.
+        # now a new user, Francis, comes along to the site.
 
         ## we use a new browser session to make sure that no information
         ## of Edith's is coming through from cookies etc
@@ -112,7 +72,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn('make a fly', page_text)
 
         # Francis starts a new list by entering a new item. He
-        #is less interesting than Edith...
+        # is less interesting than Edith...
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
@@ -129,15 +89,3 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertIn('Buy milk', page_text)
 
         # satisfied, they both go back to sleep
-
-
-    def test_layout_and_styling(self):
-        self.browser.get(self.server_url)
-        self.browser.set_window_size(1024, 768)
-
-        inputbox = self.browser.find_element_by_id('id_new_item')
-        self.assertAlmostEqual(
-            inputbox.location['x'] + inputbox.size['width'] /2,
-            640,
-            delta=5
-        )
